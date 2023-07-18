@@ -22,7 +22,7 @@ export default function Card(
       <figure className="h-64 w-full overflow-hidden relative">
         <img src={`/projects/${image}`} alt={title} className="h-full w-full object-cover absolute"/>
       </figure>
-      <div className="card-body">
+      <div className="card-body pl-5 md:pl-8">
         <h2 className="font-mono card-title">{title}
         </h2>
         <div className='font-bold flex flex-wrap'>
