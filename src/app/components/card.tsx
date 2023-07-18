@@ -18,7 +18,7 @@ export default function Card(
   ) {
 
   return (
-    <div className="card w-96 bg-base-300 shadow-xl">
+    <div className="card w-66 md:w-96 bg-base-300 shadow-xl">
       <figure className="h-64 w-full overflow-hidden relative">
         <img src={`/projects/${image}`} alt={title} className="h-full w-full object-cover absolute"/>
       </figure>
