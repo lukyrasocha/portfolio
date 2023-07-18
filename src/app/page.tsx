@@ -6,7 +6,7 @@ import GithubRepos from './components/githubrepos';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-10 md:p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-8 md:p-24">
       <div className="flex flex-col md:flex-row items-center justify-center w-full md:w-3/5 mx-auto mt-10">
         <div className="w-full md:w-1/2">
           <h1 className="text-4xl font-bold">hey! 👋</h1>
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <div className="divider pt-12"></div> 
-      <section className="flex flex-col items-center w-full mt-10">
+      <section className="flex flex-col items-center w-full p-0 mt-10">
         <h2 className="text-4xl font-bold mb-10">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         <Card
