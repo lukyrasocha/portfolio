@@ -20,8 +20,7 @@ export default function Page(){
       </div>
 
       <p className="font-mono pt-10 text-gray-400">
-      <span className="text-white">AITU</span> is a student-led organization that I co-founded stationed at the <a className="text-purple-500 hover:underline" href="https://www.itu.dk/" target="_blank" rel="noopener noreferrer">IT University of Copenhagen</a>. <span className="text-white">AITU</span> is a hub of bright minds, fostering interactive reading groups, lab projects, and external talks dedicated to staying up to date with artificial intelligence research. <br /> <br />
-      Being a part of AITU's vibrant community of students with shared interests was truly a rewarding experience, and I can't wait to see the organization's future trajectory. <br /> <br />
+      <span className="text-white">AITU</span> is a student-led organization that I co-founded stationed at the <a className="text-purple-500 hover:underline" href="https://www.itu.dk/" target="_blank" rel="noopener noreferrer">IT University of Copenhagen</a>. <span className="text-white">AITU</span> is a hub of bright minds, that weekly host interactive reading groups, lab projects, and external talks dedicated to staying up to date with artificial intelligence research. <br /> <br />
       On our <a className="text-purple-500 hover:underline" href="https://aitu.group" target="_blank" rel="noopener noreferrer">AITU Website</a>, you can discover more about aitu's mission and activities or check the members' insightful blog posts covering our recent events and readings. <br /> <br />
       We're also present on <a className="text-purple-500 hover:underline" href="https://github.com/aitu-dk" target="_blank" rel="noopener noreferrer">GitHub</a> and <a className="text-purple-500 hover:underline" href="https://www.linkedin.com/company/aitu-dk" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
       </p>
