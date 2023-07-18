@@ -51,7 +51,7 @@ export default function Home() {
         />
         <Card
           title="pathfinding-visualizer"
-          image='pathfinding.png'
+          image='pathfinding/pathfinding.png'
           link='/projects/pathfinding/'
           tags={['Algorithms & Data Structures', '2020']}
         />
