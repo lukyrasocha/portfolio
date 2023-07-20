@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FaGithub } from 'react-icons/fa'; // imports Github, Linkedin, and Email icons
+import { FaGithub } from 'react-icons/fa'; 
 
 export default function GithubRepos() {
   interface Repo {
@@ -15,10 +15,16 @@ export default function GithubRepos() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    fetch('https://api.github.com/users/lukyrasocha/repos') // replace {your_username} with your actual GitHub username
+    fetch('https://api.github.com/users/lukyrasocha/repos')
       .then(response => response.json())
-      .then(data => setRepos(data))
+      .then(data => {
+        const sortedData = data.sort((a: Repo, b: Repo) => {
+          return new Date(b.created_at).getTime() - new Date(a.created_at).getTime();
+        });
+        setRepos(sortedData);
+      })
   }, [])
+
 
   return (
       <div className="flex flex-col items-center w-full mt-10">
