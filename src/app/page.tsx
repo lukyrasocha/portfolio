@@ -56,6 +56,20 @@ export default function Home() {
           tags={['Algorithms & Data Structures', '2020']}
         />
 
+        <Card
+          title="Repommend"
+          image='repommend/repommend_intro.png'
+          link='/projects/repommend/'
+          tags={['Network Analysis', 'ITU', '2021']}
+        />
+
+        <Card
+          title="Digital Tourist Guide"
+          image='chatbot/chatbot_intro.jpeg'
+          link='/projects/chatbot/'
+          tags={['NLP', 'Chatbot', '2018']}
+        />
+
         </div>
       </section>
       <GithubRepos />
