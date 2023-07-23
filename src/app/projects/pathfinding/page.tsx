@@ -19,17 +19,22 @@ export default function Page(){
       </div>
 
       <p className="font-mono pt-10 text-gray-400">
-        In this project we used JavaScript to implement four different graph-searching algorithms: <span className="text-white">A star, BFS, DFS, Dijkstra</span>. We put these algorithms to the test on a range of randomly generated maps of different sizes, gathering data to see how they stack up against each other and to verify their theoretical <span className="text-white">big-O</span>. If you're interested, you can check out the implementations <a className="text-purple-500 hover:underline" href="http://webkutil.cz/algorithms/" target="_blank" rel="noopener noreferrer">here</a>.
+        In this project we used JavaScript to implement four different graph-searching algorithms: <span className="text-white">A star, BFS, DFS, Dijkstra</span>. We put these algorithms to the test on a range of randomly generated maps of different sizes, gathering data to see how they stack up against each other and to verify their theoretical <span className="text-white">big-O</span>. 
+        <br /> <br /> 
+        If you're interested, you can check out the implementations <a className="text-purple-500 hover:underline" href="http://webkutil.cz/algorithms/" target="_blank" rel="noopener noreferrer">here</a>.
         Or read the paper <a className="text-purple-500 hover:underline" href="https://rucforsk.ruc.dk/ws/files/68132039/BP2_Group_1_Pathfinding__new___4_.pdf" target="_blank" rel="noopener noreferrer">here</a>.
       </p>
 
-      <Image
-        className="pt-5"
-        src="/projects/pathfinding/system.png" 
-        alt="pathfinding-visualizer"
-        width={600}
-        height={400}
-      />
+      <div className="justify-center pt-5">
+        <div className="rounded-lg overflow-hidden">
+          <Image
+            src="/projects/pathfinding/system.png" 
+            alt="pathfinding-visualizer"
+            width={600}
+            height={400}
+          />
+        </div>
+      </div>
     </div>
   )
 }

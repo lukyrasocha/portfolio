@@ -20,18 +20,21 @@ export default function Page(){
       </div>
 
       <p className="font-mono pt-10 text-gray-400">
-      <span className="text-white">AITU</span> is a student-led organization that I co-founded stationed at the <a className="text-purple-500 hover:underline" href="https://www.itu.dk/" target="_blank" rel="noopener noreferrer">IT University of Copenhagen</a>. <span className="text-white">AITU</span> is a hub of bright minds, that weekly host interactive reading groups, lab projects, and external talks dedicated to staying up to date with artificial intelligence research. <br /> <br />
-      On our <a className="text-purple-500 hover:underline" href="https://aitu.group" target="_blank" rel="noopener noreferrer">AITU Website</a>, you can discover more about aitu's mission and activities or check the members' insightful blog posts covering our recent events and readings. <br /> <br />
-      We're also present on <a className="text-purple-500 hover:underline" href="https://github.com/aitu-dk" target="_blank" rel="noopener noreferrer">GitHub</a> and <a className="text-purple-500 hover:underline" href="https://www.linkedin.com/company/aitu-dk" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+        <span className="text-white">AITU</span> is a student-led organization that I co-founded stationed at the <a className="text-purple-500 hover:underline" href="https://www.itu.dk/" target="_blank" rel="noopener noreferrer">IT University of Copenhagen</a>. <span className="text-white">AITU</span> is a hub of bright minds, that weekly host interactive reading groups, lab projects, and external talks dedicated to staying up to date with artificial intelligence research. <br /> <br />
+        On our <a className="text-purple-500 hover:underline" href="https://aitu.group" target="_blank" rel="noopener noreferrer">AITU Website</a>, you can discover more about aitu's mission and activities or check the members' insightful blog posts covering our recent events and readings. <br /> <br />
+        We're also present on <a className="text-purple-500 hover:underline" href="https://github.com/aitu-dk" target="_blank" rel="noopener noreferrer">GitHub</a> and <a className="text-purple-500 hover:underline" href="https://www.linkedin.com/company/aitu-dk" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
       </p>
 
-      <Image
-        className="pt-5"
-        src="/projects/aitu/group.jpg" 
-        alt="AITU group photo"
-        width={800}
-        height={400}
-      />
+      <div className="justify-center pt-5">
+        <div className="rounded-lg overflow-hidden">
+          <Image
+            src="/projects/aitu/group.jpg" 
+            alt="AITU group photo"
+            width={800}
+            height={400}
+          />
+        </div>
+      </div>
     </div>
   )
 }
