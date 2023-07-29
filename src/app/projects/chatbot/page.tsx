@@ -27,9 +27,9 @@ export default function Page(){
         formed my path to pursue a <span className="text-white">BSc. in Data Science</span>.
 
         <br/><br/>
-        In addition to the to the technical part, it was also the first time I was part of a team developing a product which 
-        came with many other responsibilities, where already as a highschooler I had to be in a direct contact with the city council,
-        present the project to potential clients and so on. We managed to reach thousands of users which eventually led 
+        In addition to the technical part, it was also the first time I was part of a team developing a product which 
+        came with many other responsibilities, such as applying for funding, dealing with existing partners or 
+        presenting the project to new potential clients. We managed to reach thousands of users which eventually led 
         to winning a regional round of a start-up competition: <span className="text-white">T-mobile rozjezdy</span>.
 
         <br/><br/>
