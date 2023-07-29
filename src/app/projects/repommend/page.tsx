@@ -20,9 +20,13 @@ export default function Page(){
       </div>
 
       <p className="font-mono pt-10 text-gray-400">
-        As a final exam for the course <span className="text-white">Network Analysis</span> we built a recommendation system for github repositories, based on the 2009 GitHub bipartite network, representing User-Repository-Watches (unweighted) relationships. A similar pipeline as used within this project can be applied generically to any bipartite graph, to build a recommendation for either of the two classes.
-        <br /> <br />
-        Try it out <a className="text-purple-500 hover:underline" href="https://na-project.netlify.app/" target="_blank" rel="noopener noreferrer">here</a> or check the code on <a className="text-purple-500 hover:underline" href="https://github.com/lukyrasocha/github-recommendation-system" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        In our <span className="text-white">Network Analysis</span> course, we took on the task of building 
+        a recommendation system for GitHub repositories by using solely a <span className="text-white">bipartite graph </span>
+        that represents the relationships between users and the repositories they watch. 
+        The technique used can be generally applied to any bipartite graph, to build a recommendation for either of the two classes. 
+        <br /><br /> 
+        If you're interested, you can try the system  <a className="text-purple-500 hover:underline" href="https://na-project.netlify.app/" target="_blank" rel="noopener noreferrer">here</a> or 
+        take a look at the code on <a className="text-purple-500 hover:underline" href="https://github.com/lukyrasocha/github-recommendation-system" target="_blank" rel="noopener noreferrer">GitHub</a>.
       </p>
 
       <div className="justify-center pt-5">
