@@ -137,9 +137,9 @@ export default function Home() {
 						>
 							AITU
 						</a>
-						, a student community around the field of AI that I
-						co-started with a couple of friends. Always happy to
-						chat about movies of any and all genres or recent AI
+						, an inclusive student community around the field of AI
+						that I co-started with a couple of friends. Always happy
+						to chat about movies of any and all genres or recent AI
 						developments. Reach out if you want to connect!
 					</p>
 					<Socials />
