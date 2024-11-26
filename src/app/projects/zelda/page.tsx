@@ -24,7 +24,7 @@ export default function Page() {
 			</div>
 
 			<p className="font-mono pt-10 text-gray-400">
-				In my bachelor project at the{" "}
+				In this project supervised by Prof. Sebastian Risi at the{" "}
 				<a
 					className="text-purple-500 hover:underline"
 					href="https://www.itu.dk/"
@@ -38,16 +38,17 @@ export default function Page() {
 				game level design for{" "}
 				<span className="text-white">The Legend of Zelda</span>.<br />
 				<br />
-				We developed a system that allows users to fix specific tiles,
-				while the rest of the level grows through an evolved{" "}
+				We developed a system that allows users to fix specific tiles of
+				the levels, while the rest of the level grows through an evolved{" "}
 				<span className="text-white">
 					Neural Cellular Automata (NCA)
 				</span>{" "}
 				model. The users also have the freedom to select a model from a
 				trained archive of NCA models. This results in a diverse array
 				of specialized level generators capable of creating playable
-				game levels. The generators consider both the specific level
-				characteristics and the user-defined fixed tiles. <br /> <br />
+				game levels with different characteristics. The generators
+				consider both the specific level characteristics and the
+				user-defined fixed tiles. <br /> <br />
 				The code is available on{" "}
 				<a
 					className="text-purple-500 hover:underline"

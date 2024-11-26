@@ -43,14 +43,17 @@ export default function Page() {
 				Grounded in the{" "}
 				<span className="text-white">five-stage model</span> of personal
 				informatics systems, "Everyday Ed" offers tailored experiences
-				with four predefined personalities (Joyful Jellyfish, Hustling
-				Horse, Mindful Moose and Curious Crocodile), where each
-				personality has its own set of mood tracking questions and
-				optional user-customized bad habit tracking. The system allows
-				users to easily track their daily moods and habits through a
-				chat interface, and provides personalized visualizations in the
-				dashboard to empower users in monitoring and enhancing their
-				mental health.
+				with four predefined personalities (
+				<span className="text-white">
+					Joyful Jellyfish, Hustling Horse, Mindful Moose and Curious
+					Crocodile
+				</span>
+				), where each personality has its own set of mood tracking
+				questions and optional user-customized bad habit tracking. The
+				system allows users to easily track their daily moods and habits
+				through a chat interface, and provides personalized
+				visualizations in the dashboard to empower users in monitoring
+				and enhancing their mental health.
 				<br />
 				<br />
 				<Image

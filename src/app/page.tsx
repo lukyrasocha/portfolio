@@ -39,9 +39,15 @@ export default function Home() {
 			tags: ["Mental health", "UX", "Visualization", "DTU", "2024"],
 		},
 		{
+			title: "PLStream: framework for fast polarity labelling",
+			image: "plstream/plstream.png",
+			link: "/projects/plstream/",
+			tags: ["NLP", "ITU"],
+		},
+		{
 			title: "Civillians at crossroads",
 			image: "ukraine-russia-conflict/ukraine-russia-conflict-intro.png",
-			link: "https://cost-of-war-in-the-black-sea-region-771755230276.europe-west1.run.app/",
+			link: "/projects/conflict/",
 			tags: ["Data Visualization", "2024", "DTU"],
 		},
 		{
@@ -93,8 +99,8 @@ export default function Home() {
 						>
 							IT University of Copenhagen
 						</a>{" "}
-						🎓 and currently I am pursuing my master's in the same
-						field at the{" "}
+						🎓 and currently I am pursuing my master's in
+						Human-centered Artificial Intelligence at the{" "}
 						<a
 							className="text-purple-500 hover:underline"
 							href="https://www.dtu.dk/"
