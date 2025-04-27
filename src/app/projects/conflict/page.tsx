@@ -25,16 +25,15 @@ export default function Page() {
 				</div>
 			</div>
 			<p className="font-mono pt-10 text-gray-400">
-				This narrative aims to shed light on the human cost of these
-				conflicts. By looking into data [1] on various types of events
-				such as battles, violent demonstrations, and other forms of
-				political violence. We will tell the story not just about the
-				frequency and types of these events, but their profound impact
-				on civilian populations, from fatalities and injuries to
+				This project looks at the human impact of political violence in
+				the Black Sea region. Using data on battles, protests, and other
+				conflict related events, we tried to highlight not just how
+				often these things happen, but what they actually mean for the
+				people living through them including fatalities, injuries, and
 				displacement.
-				<br></br>
-				<br></br>
-				Read the full data story{" "}
+				<br />
+				<br />
+				You can explore the full interactive story{" "}
 				<a
 					className="text-purple-500 hover:underline"
 					href="https://cost-of-war-in-the-black-sea-region-771755230276.europe-west1.run.app/"

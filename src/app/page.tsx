@@ -21,6 +21,25 @@ export default function Home() {
 			tags: ["AI", "ITU"],
 		},
 		{
+			title: "Geodesics in latent space",
+			image: "geodesics/intro.png",
+			link: "/projects/geodesics/",
+			tags: ["Differential geometry", "DTU", "2025"],
+		},
+
+		{
+			title: "PLStream: framework for fast polarity labelling",
+			image: "plstream/plstream.png",
+			link: "/projects/plstream/",
+			tags: ["NLP", "ITU"],
+		},
+		{
+			title: "Robustness in Small Language Models",
+			image: "rstar/intro.png",
+			link: "/projects/rstar/",
+			tags: ["ML", "Monte Carlo Tree", "DTU", "2024"],
+		},
+		{
 			title: "Predicting tire assembly",
 			image: "tire-assembly/intro.jpg",
 			link: "/projects/tire-assembly/",
@@ -33,16 +52,16 @@ export default function Home() {
 			tags: ["AI", "DTU", "2023"],
 		},
 		{
+			title: "The Prompted One",
+			image: "prompted-one/cover.png",
+			link: "/projects/prompted-one/",
+			tags: ["Game Development", "Nordic Game Jam", "2025"],
+		},
+		{
 			title: "Everyday Ed",
 			image: "everydayed/knotmess.jpg",
 			link: "/projects/everydayed/",
 			tags: ["Mental health", "UX", "Visualization", "DTU", "2024"],
-		},
-		{
-			title: "PLStream: framework for fast polarity labelling",
-			image: "plstream/plstream.png",
-			link: "/projects/plstream/",
-			tags: ["NLP", "ITU"],
 		},
 		{
 			title: "Civillians at crossroads",
@@ -86,7 +105,7 @@ export default function Home() {
 			- Remains half width on large screens for side-by-side layout with the image
 		  */}
 				<div className="w-full lg:w-1/2">
-					<h1 className="text-3xl sm:text-4xl font-bold">hey! 👋</h1>
+					<h1 className="text-3xl sm:text-4xl font-bold">hey!</h1>
 					<p className="pt-2 font-mono text-sm sm:text-base md:text-lg">
 						My name is Lukas. I'm Czech 🇨🇿 and Canadian 🇨🇦 living in
 						the beautiful city of Copenhagen 🇩🇰. Previously I
@@ -143,9 +162,9 @@ export default function Home() {
 						>
 							AITU
 						</a>
-						, an inclusive student community around the field of AI
-						that I co-started with a couple of friends. Always happy
-						to chat about movies of any and all genres or recent AI
+						, Denmark's largest student AI community that I
+						co-founded with a couple of friends. Always happy to
+						chat about movies of any and all genres or recent AI
 						developments. Reach out if you want to connect!
 					</p>
 					<Socials />
@@ -170,8 +189,8 @@ export default function Home() {
 
 			{/* Projects Section */}
 			<section className="mt-10 flex w-full flex-col items-center p-0">
-				<h2 className="mb-10 text-3xl sm:text-4xl font-bold">
-					Projects
+				<h2 className="mb-10 font-mono text-3xl sm:text-4xl font-bold">
+					Some of my projects
 				</h2>
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
 					{visibleProjects.map((project, index) => (

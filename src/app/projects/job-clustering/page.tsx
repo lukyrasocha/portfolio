@@ -32,9 +32,8 @@ export default function Page() {
 				that align with industry demands is crucial for job seekers
 				aiming to remain competitive. This project focuses on uncovering
 				these essential skills by leveraging{" "}
-				<span className="text-white">NLP, GPT-3.5</span> and{" "}
-				<span className="text-white">clustering analysis</span>{" "}
-				techniques.
+				<span className="text-white">NLP</span> and{" "}
+				<span className="text-white">clustering analysis</span> methods.
 				<br />
 				<br />
 				<span className="text-white">Objective:</span> The primary goal

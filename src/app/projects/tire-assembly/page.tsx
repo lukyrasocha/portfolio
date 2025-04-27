@@ -42,11 +42,6 @@ export default function Page() {
 				optimal conditions for tire assembly without human intervention.
 				<br />
 				<br />
-				The goal is to increase efficiency and accuracy in tire assembly
-				processes, reducing the reliance on manual labor and minimizing
-				errors.
-				<br />
-				<br />
 				This end-to-end ML project additionally utilizes many different
 				tools and frameworks such as{" "}
 				<span className="text-white">Pytorch Lightning</span> for
