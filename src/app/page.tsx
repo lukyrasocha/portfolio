@@ -9,6 +9,12 @@ export default function Home() {
 
 	const projects = [
 		{
+			title: "Synthetic Brain Dataset",
+			image: "syn-mri/synthetic_mri.png",
+			link: "/projects/syn-mri/",
+			tags: ["Synthetic Data", "Computer Vision", "DTU", "2025"],
+		},
+		{
 			title: "zeldalevelcraft.com",
 			image: "zelda/zeldaintro.png",
 			link: "/projects/zelda/",
@@ -105,21 +111,10 @@ export default function Home() {
 			- Remains half width on large screens for side-by-side layout with the image
 		  */}
 				<div className="w-full lg:w-1/2">
-					<h1 className="text-3xl sm:text-4xl font-bold">hey!</h1>
+					<h1 className="text-3xl sm:text-4xl font-bold">hello</h1>
 					<p className="pt-2 font-mono text-sm sm:text-base md:text-lg">
-						My name is Lukas. I'm Czech 🇨🇿 and Canadian 🇨🇦 living in
-						the beautiful city of Copenhagen 🇩🇰. Previously I
-						studied Data Science at the{" "}
-						<a
-							className="text-purple-500 hover:underline"
-							href="https://www.itu.dk/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							IT University of Copenhagen
-						</a>{" "}
-						🎓 and currently I am pursuing my master's in
-						Human-centered Artificial Intelligence at the{" "}
+						I am a master's student in Human-Centered Artificial
+						Intelligence at the{" "}
 						<a
 							className="text-purple-500 hover:underline"
 							href="https://www.dtu.dk/"
@@ -128,10 +123,33 @@ export default function Home() {
 						>
 							Technical University of Denmark
 						</a>
-						. 🤖
+						, with a background in Data Science from the{" "}
+						<a
+							className="text-purple-500 hover:underline"
+							href="https://www.itu.dk/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							IT University of Copenhagen
+						</a>
+						. My research interests include 3D computer vision,
+						synthetic data generation, human modeling, and the
+						application of AI to understand and interact with the
+						world around us.
 						<br />
 						<br />
-						👨‍💻 Outside of school I work as a Data Engineer at{" "}
+						👨‍💻 Currently, I am a Research Intern at{" "}
+						<a
+							className="text-purple-500 hover:underline"
+							href="https://www.teton.ai/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Teton AI
+						</a>
+						, focusing on monocular 3D human pose and depth
+						estimation for patient monitoring. Alongside my studies,
+						I work as a Data Engineer at{" "}
 						<a
 							className="text-purple-500 hover:underline"
 							href="https://www.lego.com/en-de"
@@ -139,9 +157,8 @@ export default function Home() {
 							rel="noopener noreferrer"
 						>
 							the LEGO Group
-						</a>{" "}
-						🧱, where I am a part of a team developing a
-						self-service Data Platform.
+						</a>
+						, developing scalable a self-service data platform.
 						<br />
 						<br />♜ In my downtime, I love playing{" "}
 						<a
